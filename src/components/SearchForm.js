@@ -4,7 +4,15 @@ export default function SearchForm() {
  
   return (
     <section className="search-form">
-     // Add a search form here
+     <form>
+      <label htmlFor='searchInput'>Search</label>
+      <input 
+      max-length='15'
+      placeholder='Search'
+      id='searchInput'
+      
+      />
+     </form>
     </section>
   );
 }
